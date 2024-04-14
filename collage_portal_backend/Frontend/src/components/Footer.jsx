@@ -28,7 +28,7 @@ const Footer = () => {
   ];
   // JSX structure of the footer
   return (
-    <div className='bg-[#000300] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
+    <div className='bg-[#000300] mx-auto py-16 px-3 grid lg:grid-cols-3 gap-8 text-gray-300'>
       {/* Left section with brand and social icons */}
       <div>
         <h1 className='w-full text-3xl lg:text-4xl xl:text-5xl font-bold text-[#00df9a]'>CampusDial</h1>
@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
       </div>
       {/* Right section with footer content organized in sections */}
-      <div className='lg:col-span-2 flex justify-between mt-6'>
+      <div className='lg:col-span-2 flex justify-evenly mt-6'>
         {/* Mapping over sections and rendering content */}
         {items.map((item, index) => (
           item.type === 'section' ? (

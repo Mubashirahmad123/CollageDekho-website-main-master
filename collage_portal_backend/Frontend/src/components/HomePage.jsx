@@ -55,6 +55,8 @@ import CollegeList from './CollegeList.jsx';
 import College from './College.jsx';
 import Banner from './Banner.jsx';
 import Card from './Card.jsx';
+import Hero  from './Hero Section.jsx';
+import ApplyForm  from './CollageApply.jsx';
 
 const App = () => {
   return (
@@ -65,6 +67,7 @@ const App = () => {
         <Route path="/country" element={<CountryListWithNavAndFooter />} />
         <Route path="/collage" element={<CollegeWithNavAndFooter />} />
         <Route path="/collages" element={<CollegeListWithNavAndFooter />} />
+        <Route path="/apply" element= {<ApplyForm/>} />
         
       </Routes>
       
