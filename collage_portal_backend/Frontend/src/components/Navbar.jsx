@@ -168,7 +168,7 @@ import { FcSearch } from "react-icons/fc";
 
 function NavScrollExample() {
   return (
-    <Navbar expand="lg" style={{ backgroundColor: 'grey' }} className="text-white">
+    <Navbar expand="lg" style={{ backgroundColor: '#115e59' }} className="text-black">
 
       <Container fluid>
         <Navbar.Brand href="#"></Navbar.Brand>

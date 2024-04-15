@@ -75,7 +75,7 @@ const ApplyForm = () => {
       
         {/* Submit Button */}
         <div className="w-full flex flex-row items-center justify-center">
-        <button className="w-22 px-3 py-2 bg-royalblue text-white rounded-md focus:outline-none" style={{transition: 'background-color 0.3s ease'}} onMouseOver={(e) => e.currentTarget.style.backgroundColor = 'green'} onMouseOut={(e) => e.currentTarget.style.backgroundColor = 'royalblue'}>
+        <button className="w-22 px-3 py-2 bg-royalblue text-white rounded-md focus:outline-none  " style={{transition: 'background-color 0.3s ease'}} onMouseOver={(e) => e.currentTarget.style.backgroundColor = 'green'} onMouseOut={(e) => e.currentTarget.style.backgroundColor = 'royalblue'}>
 
 
             SUBMIT
