@@ -39,7 +39,7 @@ footer {
 } 
 
 .navbar button.btn:hover {
-  background-color: grey; /* Remove the blue hover background */
+  background-color: white; /* Remove the blue hover background */
   outline : none !important;
 }
 

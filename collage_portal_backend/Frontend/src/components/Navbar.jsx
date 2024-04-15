@@ -166,11 +166,10 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { FcSearch } from "react-icons/fc";
 
 
-
-
 function NavScrollExample() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" style={{ backgroundColor: 'grey' }} className="text-white">
+
       <Container fluid>
         <Navbar.Brand href="#"></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -205,7 +204,22 @@ function NavScrollExample() {
               className="me-2"
               aria-label="Search"
             />
-                        <Button className="btn-no-outline"> <FcSearch /> </Button>
+            <Button className="btn-no-outline" style={{outline: 'none'}}>
+  <div
+    style={{
+      backgroundColor: '#ffffff',
+    }}
+  >
+    <FcSearch
+      style={{
+        color: '#ffffff',
+      }}
+    />
+  </div>
+</Button>
+
+            
+
 
           </Form>
         </Navbar.Collapse>
