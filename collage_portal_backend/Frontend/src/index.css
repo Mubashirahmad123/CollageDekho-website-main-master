@@ -20,23 +20,18 @@ body {
     box-sizing: border-box;
   }   */
 
-.banner-Image {
-  width:auto;
-  height:300px;
-}  
+  .banner-image {
+    width: auto;
+    height: 300px;
+    padding: 5px;
+  }
+  
+  .img-container {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
 
-.ImgContainer{
-  margin-top:5px;
-}
 
-
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000; /* Ensure the footer stays above other content */
-} 
 
 .navbar button.btn:hover {
   background-color: white; /* Remove the blue hover background */

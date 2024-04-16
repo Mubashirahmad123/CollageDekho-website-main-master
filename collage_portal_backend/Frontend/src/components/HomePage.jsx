@@ -57,6 +57,8 @@ import Banner from './Banner.jsx';
 import Card from './Card.jsx';
 import Hero  from './Hero Section.jsx';
 import ApplyForm  from './CollageApply.jsx';
+import Divider from '@mui/material/Divider';
+
 
 const App = () => {
   return (
@@ -80,6 +82,8 @@ const Home = () => {
   return (
     <>
       <Banner />
+      {/* <Divider>CENTER</Divider> */}
+      <Divider style={{marginTop:'-9px', marginBottom:'5px' }}>&nbsp;</Divider>
       <Card />
     </>
   );
